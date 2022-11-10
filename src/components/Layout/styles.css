@@ -1,0 +1,29 @@
+.myRowLayout {
+    margin: 0 !important;
+    flex-wrap: nowrap !important;
+}
+
+.myColLayoutLeft {
+    background: #564EDA !important;
+    position: fixed !important;
+    height: 100vh !important;
+    width: 12% !important;
+}
+
+.myColLayoutRight {
+    width: 88% !important;
+    margin-left: 12% !important;
+}
+
+.myRowRight {
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.myRowPrivateRoute {
+    padding-top: 30px !important;
+    padding-bottom: 93px !important;
+    padding-left: 30px !important;
+    padding-right: 50px !important;
+}

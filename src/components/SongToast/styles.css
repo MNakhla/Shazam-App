@@ -1,0 +1,89 @@
+.toastButton {
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+}
+
+.toastButton:hover {
+    color: #564EDA !important;
+}
+
+.myMainDivToast {
+    background: #F5774D !important;
+    position: fixed !important;
+    z-index: 2 !important;
+    width: 600px !important;
+    height: 140px !important;
+    top: 50% !important;
+    left: 50% !important;
+    margin-top: -100px
+        /* Negative half of height. */
+        !important;
+    margin-left: -250px
+        /* Negative half of width. */
+        !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+}
+
+.myDivPopupCloseBut {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+}
+
+.myDivPopup {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    width: 100% !important;
+    padding-top: 5px !important;
+    flex-wrap: wrap !important;
+}
+
+.myOption {
+    text-align: left !important;
+}
+
+.myDivToastPosition {
+    z-index: 11 !important;
+    width: 88% !important;
+}
+
+.toastDisplay {
+    background-color: #FFB6A8 !important;
+    border-radius: 5px !important;
+    padding: 8px !important;
+}
+
+.myDivToastSpacing {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.myDivToastLeft {
+    min-width: 33.3% !important;
+}
+
+.myDivToastMiddle {
+    min-width: 33.3% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+.myDivToastRight {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    min-width: 33.3% !important;
+}
+
+.myToastAddToPlaylist {
+    margin-right: 8px !important;
+}

@@ -1,0 +1,100 @@
+.searchButton {
+    background: #FFB6A8 !important;
+    border: none !important;
+    color: #564EDA !important;
+
+}
+
+.searchButton:hover {
+    color: #FFB6A8 !important;
+    background: #564EDA !important;
+}
+
+.input:focus {
+    border: #FFB6A8 !important;
+}
+
+.playListButton {
+    background: transparent !important;
+    border: none !important;
+    color: #564EDA !important;
+}
+
+.playListButton:hover {
+    color: #FFB6A8 !important;
+}
+
+.myHeaderFav {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    color: grey !important;
+}
+
+.myHeaderHomePlaylist {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    color: grey !important;
+}
+
+.myLoadingHome {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding-top: 100px !important;
+}
+
+.myDivCreatePlaylist {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+.myPlaylistNameInput {
+    width: 50% !important;
+    margin-top: 7px !important;
+}
+
+.myIconCreatePlaylist {
+    margin-right: 8px
+}
+
+.myPlaylistNoRes {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    color: grey !important;
+    margin-top: 100px !important;
+}
+
+.myMainDivSearch {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+.myDivTypeAhead {
+    border-radius: 5px !important;
+    width: 30% !important;
+    margin-right: 5px !important;
+    margin-top: 4px !important;
+}
+
+.mySearchInput {
+    width: 100% !important;
+    border-color: #FFB6A8 !important;
+    border-radius: 5px !important;
+}
+
+.myLoadingSearch {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding-top: 100px !important;
+}

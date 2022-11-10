@@ -1,0 +1,35 @@
+.loginButton {
+    background: transparent !important;
+    border: none !important;
+    color: #564EDA !important;
+    background-color: #FFB6A8 !important;
+}
+
+.loginButton:hover {
+    background-color: #564EDA !important;
+    color: #FFB6A8 !important;
+}
+
+
+.loginButton:focus {
+    color: #FFB6A8 !important;
+}
+
+.myHeaderPrivateRoute {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100% !important;
+    padding-top: 100px !important;
+    gap: 30px !important;
+}
+
+.myLoadingPrivateRoute {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding-top: 100px !important;
+}

@@ -1,0 +1,52 @@
+.myButton {
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+}
+
+.myButtonActive {
+    background: #FFB6A8 !important;
+    border: none !important;
+    color: white !important;
+    width: 100%;
+}
+
+.myButton:hover {
+    color: #FFB6A8 !important;
+
+}
+
+
+.myButton:focus {
+    color: #FFB6A8 !important;
+}
+
+.myDivButSidebar {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.myDivIconSidebar {
+    margin-right: 15px;
+}
+
+.myDivLogoutBut {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 10% !important;
+
+}
+
+.myStack {
+    /* padding-left: 5% !important; */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    height: 90% !important;
+    padding-bottom: 40% !important;
+}

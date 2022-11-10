@@ -1,0 +1,17 @@
+.myDiv {
+    margin-right: 20px !important
+}
+
+.myImage {
+    border-radius: 5px !important
+}
+
+.myHeader {
+    max-height: 40px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 120px !important;
+    text-align: center !important;
+    margin-top: 8px !important;
+}
