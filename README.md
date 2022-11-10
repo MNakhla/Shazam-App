@@ -6,6 +6,10 @@
 
 1- Setup Keycloak using Docker via this link:  [https://www.keycloak.org/getting-started/getting-started-docker](https://www.keycloak.org/getting-started/getting-started-docker)
 
+***make sure to add those links for your keycloak client as below:***
+![Keycloak](https://user-images.githubusercontent.com/47190545/200996155-ab81c9b7-a2dc-4142-acec-5ffa03e404c1.PNG)
+
+
 2- Create a new FireBase App [https://console.firebase.google.com/](https://console.firebase.google.com/)
 
 3- Sign up for shazam API via this link [https://rapidapi.com/apidojo/api/shazam/](https://rapidapi.com/apidojo/api/shazam/)
