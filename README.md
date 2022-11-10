@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Shazam
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Music Web Application built using Shazam API utilizing React, Bootstrap5, Docker, Keycloak, Typescript and Firebase**
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+1- Setup Keycloak using Docker via this link:  [https://www.keycloak.org/getting-started/getting-started-docker](https://www.keycloak.org/getting-started/getting-started-docker)
 
-### `npm start`
+2- Create a new FireBase App [https://console.firebase.google.com/](https://console.firebase.google.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3- Sign up for shazam API via this link [https://rapidapi.com/apidojo/api/shazam/](https://rapidapi.com/apidojo/api/shazam/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4- create a .env file in the root directory of the project, copy the content of .env.example and fill in the keys with their corresponding values
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+5- Run the following commands in order in the root directory terminal
+```
+npm install
+```
+```
+npm start
+```
+## Live Screenshots
+![Login](https://user-images.githubusercontent.com/47190545/200991141-7c80f339-3540-4fbf-b785-ac41c002f5c8.PNG)
+![keycloak-login](https://user-images.githubusercontent.com/47190545/200991143-0483bfad-0565-4001-8f7e-e2ea85ceb4e2.PNG)
+![Home1](https://user-images.githubusercontent.com/47190545/200991145-e78981b0-cb10-429e-a037-a5a77796a3a2.PNG)
+![search1](https://user-images.githubusercontent.com/47190545/200991135-98265cd5-5f8a-48e9-9adb-535caab7530a.PNG)
+![song-playing](https://user-images.githubusercontent.com/47190545/200991268-13490b09-0a51-4e0b-b722-a16033b83d88.PNG)
+![empty-favorites](https://user-images.githubusercontent.com/47190545/200991271-dccfbe22-a69f-4b82-b1d1-41d3af91cf36.PNG)
+![favorites](https://user-images.githubusercontent.com/47190545/200991273-10561f11-ddab-42c7-8714-e4c3a5de3437.PNG)
+![empty-playlist](https://user-images.githubusercontent.com/47190545/200991281-67f9ff3a-f260-49a4-9a14-9c61f0670c1f.PNG)
+![cannot-add-to-playlist](https://user-images.githubusercontent.com/47190545/200991287-a9b5995a-9a96-45ff-9404-4dfc7cb59c88.PNG)
+![add-song-to-playlist](https://user-images.githubusercontent.com/47190545/200991289-d2fdd629-0e17-4577-b009-df7defdf3b2f.png)
+![playlists](https://user-images.githubusercontent.com/47190545/200991292-b6bed547-0739-4939-bfb7-044412c8eaa8.PNG)
+![home](https://user-images.githubusercontent.com/47190545/200991429-1e8a2eef-52e9-405b-8ba9-1d3cd269412b.PNG)
