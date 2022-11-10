@@ -40,6 +40,7 @@ const PrivateRoute: React.FC<IPrivate> = ({ children }) => {
                 });
               }
             } else {
+              set(ref(db, "users"), "");
               console.log("No data available");
             }
           })
